@@ -27,6 +27,9 @@ describe("standalone-single-spa-webpack-plugin", () => {
               foo: "/foo.js",
             },
           },
+          customProps: {
+            foo: "bar",
+          },
         }),
       ],
     };
@@ -57,6 +60,9 @@ describe("standalone-single-spa-webpack-plugin", () => {
             imports: {
               foo: "/foo.js",
             },
+          },
+          customProps: {
+            foo: "bar",
           },
         }),
       ],
